@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/clearmap"
+        android:title="Clear Map">
+
+    </item>
+    <item
+        android:id="@+id/My_Location"
+        android:title="My Location">
+    </item>
+    <item
+        android:id="@+id/ChangeStyle"
+        android:title="Change Map Style">
+    </item>
+    <item
+        android:id="@+id/exitApp"
+        android:title="Exit">
+    </item>
+
+</menu>

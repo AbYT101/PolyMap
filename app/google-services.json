@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "769159551725",
+    "firebase_url": "https://polymap-b12ad.firebaseio.com",
+    "project_id": "polymap-b12ad",
+    "storage_bucket": "polymap-b12ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769159551725:android:81aabd5b590137e7228ae4",
+        "android_client_info": {
+          "package_name": "com.supreme.ab.polymap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769159551725-vrqbq4dq7s5qcbj7k1l1lfg3t9h3gsqb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.supreme.ab.polymap",
+            "certificate_hash": "589ba30a4afed15b10bed76f62a36b12402d9b92"
+          }
+        },
+        {
+          "client_id": "769159551725-beov21u2a814hprher79vidm9rgofs8l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8gvV_I2k16CpjQZTf7pOI5zxL6T0agBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769159551725-beov21u2a814hprher79vidm9rgofs8l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

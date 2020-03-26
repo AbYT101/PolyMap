@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.supreme.ab.polymap">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic__place"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic__place"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DisplayAllEvent"></activity>
+        <activity android:name=".Main2Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter></activity>
+
+        <meta-data
+            android:name="com.here.sdk.access_key_id"
+            android:value="WR2jHnSxldcpnj6TqohUuQ" />
+        <meta-data
+            android:name="com.here.sdk.access_key_secret"
+            android:value="8MjCcTgNUYyG9029s3IP8pGZRY8YPNiyfMNSmDC7MI6422xegPUgcMzIkm52-mpMkRSYAp6WsNVYsrWPyNuvUA" />
+
+        <activity android:name=".MainActivity">
+            <meta-data
+                android:name="com.here.sdk.access_key_id"
+                android:value="WR2jHnSxldcpnj6TqohUuQ" />
+            <meta-data
+                android:name="com.here.sdk.access_key_secret"
+                android:value="8MjCcTgNUYyG9029s3IP8pGZRY8YPNiyfMNSmDC7MI6422xegPUgcMzIkm52-mpMkRSYAp6WsNVYsrWPyNuvUA" />
+        </activity>
+        <activity android:name=".LoginAccount"></activity>
+        <activity android:name=".RegisterAccount" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".EventRegisteration" />
+
+    </application>
+
+</manifest>
