@@ -1,4 +1,10 @@
-# PolyMap (Lists events in Poly campus, Bahirdar University)
+# PolyMap 
+# (Lists events in Poly campus, Bahirdar University)
 
-It lists events on poly as an anchor on the map and display the details of that particular event. It also calculates the routine to the events location. 
-I've used Here maps SDK for the deployment of the map.
+It is a friendly android app that lists events on poly campus as an anchor on the map and displays the details of that particular event. 
+
+Anyone can register a new event with its details.
+The app calculates the route to the events location and estimates time travel. 
+We have used Here maps SDK for the deployment of the map.
+
+More feature coming up...
